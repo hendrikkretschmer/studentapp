@@ -1,0 +1,43 @@
+.ratingcard {
+    border: solid;
+    margin-left: 43px;
+    margin-right: 43px;
+}
+
+.ratingcard__list {
+    padding: 20px;
+    list-style: none;
+    margin-bottom: 100px;
+}
+
+img {
+    height: 50px;
+}
+
+/*
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"] + label {
+    margin-left: 1.4em;
+    position: relative;
+    cursor: pointer;
+}
+input[type="checkbox"] + label:after {
+    left: -1.2em;
+    color: #000;
+    display: inline-block;
+    position: absolute;
+    right: -1.2em;
+    top: -.1em;
+    width: .8em;
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    content: '\f096';
+    font-family: 'FontAwesome';
+}
+input[type="checkbox"]:checked + label:after {
+    content: '\f046';
+}
+*/
