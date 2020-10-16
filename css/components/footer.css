@@ -1,24 +1,31 @@
 footer {
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
     background-color: #EFEFEF;
     border-top: 1px solid #ccc;
-}
-footer ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    border-radius: 15px;
+    width: 333px;
+    height: 40px;
+    margin-left: 21px;
+    margin-right: 21px;
 }
 
-footer li {
-    padding: 1em 1em;
-    width: 20%;
-    text-align: center;
-    border-right: 1px solid #ccc;
+.footer__listelements {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    align-items: center;
+    margin: 0px;
 }
-footer li:last-child {
-    border-right: none;
+
+.svgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: calc(50% - 8px);
+    width: 16px;
+    margin-bottom: 0px;
 }

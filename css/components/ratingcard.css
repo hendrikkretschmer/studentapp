@@ -7,13 +7,68 @@
 .ratingcard__list {
     padding: 20px;
     list-style: none;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 
 img {
     height: 50px;
 }
 
+.icon {
+    width: 30px;
+}
+
+.icon-fill {
+    fill: transparent;
+}
+
+input:checked + svg {
+    fill: #172e4d;
+}
+
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+.rectangle {
+    width: 30px;
+}
+
+.icon-fill {
+    fill: transparent;
+}
+
+input:checked + svg {
+    fill: #172e4d;
+}
+
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+.miniheader {
+    font-family: 'Roboto', semibold;
+    font-size: 16px;
+    color: #798aa1;
+}
+
+.motto {
+    font-family: 'Roboto', bold;
+    font-size: 16px;
+    color: #172e4d;
+}
+
+.paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #172e4d;
+}
 /*
 input[type="checkbox"] {
     display: none;
