@@ -1,0 +1,71 @@
+.arrangebutton {
+    display: flex;
+    justify-content: center;
+}
+
+.headline__codebuddycard2 {
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-bottom: 10px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0;
+    font-size: 14px;
+    color: #172e4d;
+}
+
+.topbuttonred {
+    display: flex;
+    background-color: #ed6542;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 35px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 12px;
+    box-shadow: 3px -2px 14px -6px #ed6542;
+}
+
+.ratingcard__list2 {
+    padding: 0px;
+    padding-left: 20px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.bottombuttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.whitebutton {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    color: #172e4d;;
+    border-radius: 8px;
+    padding: 10px 35px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 12px;
+    box-shadow: 3px -2px 14px -6px #ed6542;
+}
+
+.redbutton {
+    display: flex;
+    background-color: #ed6542;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 35px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 12px;
+    box-shadow: 3px -2px 14px -6px #ed6542;
+}

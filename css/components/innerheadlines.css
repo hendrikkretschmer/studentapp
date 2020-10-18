@@ -1,0 +1,31 @@
+.headline__codebuddycard {
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-bottom: 10px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0;
+    font-size: 12px;
+    color: #172e4d;
+}
+
+.codebuddycard__listitem4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: nowrap row;
+    border: solid #EFEFEF;
+    border-width: thin;
+    background-color: white;
+    border-top: 0px;
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-bottom: 60px;
+    padding: 20px 15px 20px;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:#798aa1;
+
+    box-shadow: -3px 13px 23px -5px #e8e8e8
+}
